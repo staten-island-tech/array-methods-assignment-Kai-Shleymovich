@@ -24,10 +24,12 @@ const songs = [
     album: "The Colour and the Shape",
   },
 ];
+console.log(songs)
 
-/*ratings=songs.filter((songs)=>console.log(songs.Year_made>2000))*/
+ratings=songs.filter((songs)=>console.log(songs.Year_made>2000))
+
 songs.forEach((item) => {
   item.Ratings.forEach((Rating) => {
     console.log(Rating);
   });
-});
+}); 
